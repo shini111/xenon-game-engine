@@ -7,8 +7,7 @@
 
 
 
-//This is a test
-
+//Should be working now
 static SDL_Surface* OptimizedSurface(std::string filepath, SDL_Surface* windowSurface) {
 	SDL_Surface* optimizedSurface = nullptr;
 	SDL_Surface* surface = SDL_LoadBMP(filepath.c_str());
