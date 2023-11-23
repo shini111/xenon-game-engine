@@ -1,6 +1,2 @@
-﻿  Aplication.cpp
-C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\SDL_Setup\SDL_setup\Aplication.cpp(84,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\SDL_Setup\SDL_setup\Aplication.cpp(85,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\SDL_Setup\SDL_setup\Aplication.cpp(128,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\SDL_Setup\SDL_setup\Aplication.cpp(45): warning C4715: 'LoadTexture': not all control paths return a value
-  SDL_setup.vcxproj -> C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\SDL_Setup\SDL_setup\x64\Debug\SDL_setup.exe
+﻿  Vec2.cpp
+  SDL_setup.vcxproj -> C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\x64\Debug\SDL_setup.exe
