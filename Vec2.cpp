@@ -1,4 +1,5 @@
 #include "Vec2.h"
+#include <iostream>
 
 Vec2::Vec2() : x(0.0f), y(0.0f) {}
 
@@ -31,7 +32,16 @@ Vec2 Vec2::operator/(float scalar) const {
 	}
 }
 
-std::ostream& operator<<(std::ostream& os, const Vec2& vec) {
-	os << "(" << vec.x << ", " << vec.y << ")";
-	return os;
+Vec2::operator SDL_Point() const {
+	SDL_Point point;
+	point.x = static_cast<int>(x);
+	point.y = static_cast<int>(y);
+	return point;
+}
+
+Vec2::operator SDL_Rect() const {
+	SDL_Rect rect;
+	rect.x = static_cast<int>(x);
+	rect.y = static_cast<int>(y);
+	return rect;
 }

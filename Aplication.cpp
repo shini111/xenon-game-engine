@@ -2,6 +2,8 @@
 #include "Window.h"
 #include "TextureLoader.h"
 #include "InputHandler.h"
+#include "Vec2.h"
+#include "Transform.h"
 
 
 int main(int argc, char* argv[]) {
@@ -12,10 +14,11 @@ int main(int argc, char* argv[]) {
     SDL_Texture* background = TextureLoader::LoadTexture("resources/graphics/galaxy2.bmp", renderTarget);
 
     SDL_Rect playerRect;
-    SDL_Rect playerPosition;
 
-    playerPosition.x = playerPosition.y = 0;
-    playerPosition.w = playerPosition.h = 32;
+	SDL_Rect playerPosition; // Now SDL_Rect
+	playerPosition.x = playerPosition.y = 0;
+	playerPosition.w = playerPosition.h = 32;
+
     int frameWidth, frameHeight;
     int textureWidth, textureHeight;
     float frameTime = 0;
@@ -35,8 +38,9 @@ int main(int argc, char* argv[]) {
     playerRect.w = frameWidth;
     playerRect.h = frameHeight;
 
-    float playerPositionx = playerPosition.x;
-    float playerPositiony = playerPosition.y;
+
+	float playerPositionx = playerPosition.x;
+	float playerPositiony = playerPosition.y;
 
     SDL_SetRenderDrawColor(renderTarget, 0xFF, 0, 0, 0xFF);
 
@@ -74,7 +78,8 @@ int main(int argc, char* argv[]) {
                 }
             }
         }
-        playerPosition.x = playerPositionx;
+		playerPosition.x = playerPositionx;
+
 
         SDL_RenderClear(renderTarget);
         SDL_RenderCopy(renderTarget, background, NULL, NULL);

@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>
+#include <SDL.h>
 
 class Vec2 {
 public:
@@ -15,5 +15,7 @@ public:
 	Vec2 operator*(float scalar) const;
 	Vec2 operator/(float scalar) const;
 
-	friend std::ostream& operator<<(std::ostream& os, const Vec2& vec);
+	operator SDL_Point() const;
+
+	operator SDL_Rect() const; // Direct conversion to SDL_Rect
 };
