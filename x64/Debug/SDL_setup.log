@@ -1,5 +1,5 @@
 ﻿  Aplication.cpp
 C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\Aplication.cpp(42,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\Aplication.cpp(43,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\Aplication.cpp(81,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\Aplication.cpp(96,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   SDL_setup.vcxproj -> C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\x64\Debug\SDL_setup.exe

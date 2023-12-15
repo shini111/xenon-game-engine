@@ -1,9 +1,17 @@
 #pragma once
 #include <SDL.h>
+#include "Vec2.h"
+#include <iostream>
+
 
 class Transform {
 public:
-	static SDL_Rect Translate(const SDL_Rect& rect, float xOffset, float yOffset);
-	static SDL_Rect Scale(const SDL_Rect& rect, float xScale, float yScale);
-	static SDL_Rect Rotate(const SDL_Rect& rect, float angleDegrees);
+	Vec2 position;
+	float rotation;
+	Vec2 scale;
+
+	void Translate(const Vec2& translation);
+	void Rotate(float angle);
+	void Scale(const Vec2& scaling);
+	void DisplayTransform() const;
 };
