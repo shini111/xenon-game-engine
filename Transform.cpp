@@ -1,6 +1,8 @@
 #include "Transform.h"
 
-Transform::Transform() : rotation(0.0f), scale(1.0f, 1.0f) {}
+Transform::Transform() : position(0.f,0.f), rotation(0.0f), scale(1.0f, 1.0f) {}
+
+Transform::~Transform() {}
 
 void Transform::Translate(const Vec2& translation) {
 	position = position + translation;

@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Animator.h" />
     <ClInclude Include="Aplication.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="TextureLoader.h" />
@@ -138,6 +139,7 @@
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Animator.cpp" />
     <ClCompile Include="Aplication.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="TextureLoader.cpp" />

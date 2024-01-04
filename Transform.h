@@ -10,8 +10,12 @@ public:
 	float rotation;
 	Vec2 scale;
 
+	Transform();
+	~Transform();
+
 	void Translate(const Vec2& translation);
 	void Rotate(float angle);
 	void Scale(const Vec2& scaling);
+
 	void DisplayTransform() const;
 };

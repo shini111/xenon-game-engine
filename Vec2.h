@@ -8,6 +8,7 @@ public:
 
 	Vec2();
 	Vec2(float, float y);
+	~Vec2();
 
 	void Set(float newX, float newY);
 
