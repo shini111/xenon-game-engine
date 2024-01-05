@@ -9,3 +9,6 @@ bool Component::operator==(const Component& other) const {
 std::string Component::getId() const {
 	return id;
 }
+
+void Component::Update(float deltaTime){}
+void Component::DelayedUpdate(float deltaTime){}

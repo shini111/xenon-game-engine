@@ -4,7 +4,7 @@
 #include "InputHandler.h"
 #include "Transform.h"
 #include "Animator.h"
-
+#include "box2d/box2d.h"
 
 int main(int argc, char* argv[]) {
 	Window window("SDL window", 640, 480);

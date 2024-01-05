@@ -1,4 +1,14 @@
-﻿  ECS.cpp
+﻿  Animator.cpp
+  Aplication.cpp
+C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\Aplication.cpp(44,75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\Aplication.cpp(44,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Component.cpp
+  ECS.cpp
+  InputHandler.cpp
   GameObject.cpp
+  TextureLoader.cpp
+  Transform.cpp
+  Vec2.cpp
+  Window.cpp
   Generating Code...
   SDL_setup.vcxproj -> C:\Users\XaviU\OneDrive\Ambiente de Trabalho\UNI\Trabalhos\3RDYear\Programing\GameEngine_Xenon\x64\Debug\SDL_setup.exe

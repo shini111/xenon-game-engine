@@ -23,7 +23,4 @@ public:
 		std::cout << msg << "(X,Y) = (" << x << " " << y << ")" << std::endl;
 	}
 
-// 	operator SDL_Point() const;
-// 
-// 	operator SDL_Rect() const; // Direct conversion to SDL_Rect
 };

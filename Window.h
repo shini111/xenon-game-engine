@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL.h>
 #include <string>
+#include <memory>
 
 class Window {
 public:
@@ -10,7 +11,7 @@ public:
 	SDL_Renderer* GetRenderer() const;
 
 private:
-	SDL_Window* window;
-	SDL_Renderer* renderer;
+	std::unique_ptr<SDL_Window, decltype(&SDL_DestroyWindow)> window;
+	std::unique_ptr<SDL_Renderer, decltype(&SDL_DestroyRenderer)> renderer;
 };
 
